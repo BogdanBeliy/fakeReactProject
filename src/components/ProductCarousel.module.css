@@ -1,0 +1,72 @@
+.section {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  padding: 80px max(24px, 5vw) 60px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.bgTitle {
+  position: absolute;
+  left: 176px;
+  top: 84px;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  color: rgba(0, 0, 0, 0.05);
+  letter-spacing: 11.25px;
+  text-transform: uppercase;
+  pointer-events: none;
+}
+
+.title {
+  margin: 0 0 8px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 34px;
+  color: #232323;
+  text-transform: uppercase;
+  padding-left: 24px;
+}
+
+.subtitle {
+  margin: 0 0 32px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #232323;
+  text-transform: uppercase;
+  padding-left: 24px;
+}
+
+.empty {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  color: #666;
+  text-align: center;
+  margin: 32px 0;
+  padding-left: 24px;
+}
+
+.carouselWrap {
+  overflow-x: auto;
+  padding: 0 max(24px, 5vw);
+  -webkit-overflow-scrolling: touch;
+}
+
+.carouselWrap::-webkit-scrollbar {
+  height: 8px;
+}
+
+.carouselWrap::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 4px;
+}
+
+.carousel {
+  display: flex;
+  gap: 32px;
+  padding-bottom: 16px;
+}

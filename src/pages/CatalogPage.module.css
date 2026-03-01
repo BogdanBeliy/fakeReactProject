@@ -1,0 +1,39 @@
+.page {
+  min-height: 100vh;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 24px 80px;
+  flex: 1;
+  width: 100%;
+}
+
+.title {
+  margin: 0 0 32px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 34px;
+  color: #232323;
+  text-transform: uppercase;
+}
+
+.loading,
+.empty {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  color: #666;
+  text-align: center;
+  margin: 48px 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 32px;
+  align-items: stretch;
+}

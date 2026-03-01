@@ -1,0 +1,26 @@
+.page {
+  min-height: 100vh;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  width: 100%;
+  flex: 1;
+}
+
+.mainWrap {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.twoCol {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+  gap: 0;
+  align-items: stretch;
+  box-sizing: border-box;
+}
